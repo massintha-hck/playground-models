@@ -1,0 +1,654 @@
+{
+    "modelName": "Bank account subtype",
+    "collections": [],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "fdc49ead-c19e-46e3-9db6-f50301209b78": "schemas",
+        "21928793-6c92-4dfe-a6de-31d6c14e1088": "responses",
+        "c780052c-3626-4faa-b755-0f438065fcc7": "parameters",
+        "a356b3a3-6c66-44bf-87ff-a07bc104e15c": "examples",
+        "75940263-2705-4142-82c4-23051e287d80": "requestBodies",
+        "37435259-c618-4ad8-b630-8097d55be920": "headers",
+        "5c49a760-742e-45e3-accc-e8e0f76cc3c7": "securitySchemes",
+        "cb04980c-9ce6-4384-950f-49ac5be32b03": "links",
+        "cf65f372-404e-4dad-b88a-caae5cad81dd": "callbacks",
+        "cc6a9861-86a6-4f21-a51b-acbe4da84556": "Specification Extensions",
+        "ca2efc27-77e2-4199-a6ae-03125b788adb": "Account"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [
+            {
+                "name": "schemas",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true,
+                    "source": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [
+                    {
+                        "GUID": "ca2efc27-77e2-4199-a6ae-03125b788adb",
+                        "name": "Account",
+                        "type": "reference",
+                        "$ref": "#external/definitions/Account",
+                        "refType": "polyglot",
+                        "ref": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+                        "refIdPath": [
+                            "e7984ed0-17ec-43c7-ad7a-8d04c83ad7f0",
+                            "b80e8214-92a8-4775-9e64-9cad70d34fde",
+                            "4ab258ae-e089-4ac8-8e55-3f9752c47bf2"
+                        ],
+                        "isActivated": true,
+                        "required": false,
+                        "additionalProperties": false,
+                        "error": {}
+                    }
+                ],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "schema",
+                "GUID": "fdc49ead-c19e-46e3-9db6-f50301209b78",
+                "definitionRefs": []
+            },
+            {
+                "name": "responses",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "response",
+                "GUID": "21928793-6c92-4dfe-a6de-31d6c14e1088",
+                "definitionRefs": []
+            },
+            {
+                "name": "parameters",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "structureType": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "anyParameter",
+                "GUID": "c780052c-3626-4faa-b755-0f438065fcc7",
+                "definitionRefs": []
+            },
+            {
+                "name": "examples",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "example",
+                "GUID": "a356b3a3-6c66-44bf-87ff-a07bc104e15c",
+                "definitionRefs": []
+            },
+            {
+                "name": "requestBodies",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "request",
+                "GUID": "75940263-2705-4142-82c4-23051e287d80",
+                "definitionRefs": []
+            },
+            {
+                "name": "headers",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "header",
+                "GUID": "37435259-c618-4ad8-b630-8097d55be920",
+                "definitionRefs": []
+            },
+            {
+                "name": "securitySchemes",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "securityScheme",
+                "GUID": "5c49a760-742e-45e3-accc-e8e0f76cc3c7",
+                "definitionRefs": []
+            },
+            {
+                "name": "links",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "link",
+                "GUID": "cb04980c-9ce6-4384-950f-49ac5be32b03",
+                "definitionRefs": []
+            },
+            {
+                "name": "callbacks",
+                "hackoladeMeta": {
+                    "disableAdd": false,
+                    "disableDelete": true,
+                    "disableAppend": true,
+                    "disableChoices": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "additionalProperties": false,
+                "structureType": true,
+                "properties": [],
+                "childType": "componentObject",
+                "type": "document",
+                "subtype": "callback",
+                "GUID": "cf65f372-404e-4dad-b88a-caae5cad81dd",
+                "definitionRefs": []
+            },
+            {
+                "name": "Specification Extensions",
+                "hackoladeMeta": {
+                    "disableAdd": true,
+                    "disableReference": true,
+                    "disableDelete": true,
+                    "disableAppend": true
+                },
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "required": false,
+                "ignore_z_value": true,
+                "structureType": true,
+                "subtype": "snippetChildrenOnly",
+                "additionalProperties": false,
+                "childType": "extensions",
+                "type": "document",
+                "GUID": "cc6a9861-86a6-4f21-a51b-acbe4da84556",
+                "definitionRefs": []
+            }
+        ],
+        "GUID": "a08b4c01-0fc0-4179-8d77-fdba61e1f981"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "code": "",
+                "name": "Account",
+                "isActivated": true,
+                "schemeType": "apiKey",
+                "primaryKey": false,
+                "properties": [
+                    {
+                        "code": "",
+                        "primaryKey": true,
+                        "nullable": false,
+                        "type": "string",
+                        "name": "accountNumber",
+                        "isActivated": true,
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "primaryKey": false,
+                        "nullable": false,
+                        "type": "string",
+                        "name": "dateOpened",
+                        "isActivated": true,
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c",
+                        "format": "date",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "primaryKey": false,
+                        "mode": "float",
+                        "nullable": false,
+                        "childType": "number",
+                        "type": "numeric",
+                        "name": "balance",
+                        "isActivated": true,
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "primaryKey": false,
+                        "nullable": false,
+                        "type": "string",
+                        "name": "accountType",
+                        "isActivated": true,
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6",
+                        "enum": [
+                            "checking",
+                            "savings",
+                            "loan"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "type": "choice",
+                        "properties": [
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "childType": "object",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "checking",
+                                        "isActivated": true,
+                                        "schemeType": "apiKey",
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "double",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "minimumBalanace",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683",
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "nullable": false,
+                                                "childType": "integer",
+                                                "type": "numeric",
+                                                "name": "overdraftLimit",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "mode": "int32",
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "additionalPropControl": "Boolean",
+                                        "additionalPropertiesObjectType": "integer",
+                                        "additionalPropertiesIntegerFormat": "int32",
+                                        "subtype": "schema",
+                                        "nullable": false,
+                                        "childType": "object",
+                                        "type": "document",
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "description": "",
+                                        "comments": "",
+                                        "required": false,
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "childType": "object",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "savings",
+                                        "isActivated": true,
+                                        "schemeType": "apiKey",
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "double",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "interestEarned",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "additionalPropControl": "Boolean",
+                                        "additionalPropertiesObjectType": "integer",
+                                        "additionalPropertiesIntegerFormat": "int32",
+                                        "subtype": "schema",
+                                        "nullable": false,
+                                        "childType": "object",
+                                        "type": "document",
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "description": "",
+                                        "comments": "",
+                                        "required": false,
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "childType": "object",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "loan",
+                                        "isActivated": true,
+                                        "schemeType": "apiKey",
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "loanAmount",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "nullable": false,
+                                                "childType": "integer",
+                                                "type": "numeric",
+                                                "name": "term",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "mode": "int32",
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "double",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "nullable": false,
+                                                "childType": "number",
+                                                "type": "numeric",
+                                                "name": "monthlyPmt",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "additionalPropControl": "Boolean",
+                                        "additionalPropertiesObjectType": "integer",
+                                        "additionalPropertiesIntegerFormat": "int32",
+                                        "subtype": "schema",
+                                        "nullable": false,
+                                        "childType": "object",
+                                        "type": "document",
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "description": "",
+                                        "comments": "",
+                                        "required": false,
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48",
+                        "error": {}
+                    }
+                ],
+                "additionalProperties": false,
+                "additionalPropControl": "Boolean",
+                "additionalPropertiesObjectType": "integer",
+                "additionalPropertiesIntegerFormat": "int32",
+                "subtype": "schema",
+                "nullable": false,
+                "childType": "object",
+                "type": "document",
+                "GUID": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+                "description": "",
+                "comments": "",
+                "required": false,
+                "error": {},
+                "definitionEntityType": "modelDefinition",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "e7984ed0-17ec-43c7-ad7a-8d04c83ad7f0",
+                        "a08b4c01-0fc0-4179-8d77-fdba61e1f981",
+                        "fdc49ead-c19e-46e3-9db6-f50301209b78",
+                        "ca2efc27-77e2-4199-a6ae-03125b788adb"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "fieldRelativePath": "#/Bank/Account"
+            }
+        ],
+        "GUID": "b80e8214-92a8-4775-9e64-9cad70d34fde"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "5f381254-627f-4a6d-b18c-00be101abd25"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "3.0.3",
+    "dbVendor": "OpenAPI",
+    "appTarget": "OPENAPI",
+    "creationTS": "2024-06-25T05:57:44.143Z",
+    "GUID": "e7984ed0-17ec-43c7-ad7a-8d04c83ad7f0",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "polyglotModelPaths": [
+        {
+            "GUID": "b79096a8-c9b4-4b67-a3a1-3c21db82430a",
+            "polyglotModelName": "Polyglot - Master - Bank account subtypes.hck",
+            "polyglotModelPath": "Polyglot - Master - Bank account subtypes.hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2024-06-27T06:24:48.530Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "OpenAPI",
+        "pluginVersion": "0.1.72",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.1"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [],
+                "erdDefinitions": {
+                    "erd": [
+                        {
+                            "GUID": "ca2efc27-77e2-4199-a6ae-03125b788adb",
+                            "x": 1312,
+                            "y": 1050,
+                            "width": 204,
+                            "height": 102,
+                            "color": {
+                                "hex": "#2196f3"
+                            }
+                        }
+                    ],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "vertical",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

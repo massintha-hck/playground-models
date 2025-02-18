@@ -1,0 +1,674 @@
+{
+    "modelName": "Bank account subtype",
+    "collections": [
+        {
+            "GUID": "76ab6db7-1d7a-475b-9648-d5eb492860ca",
+            "type": "reference",
+            "$ref": "#external/definitions/Account",
+            "refType": "polyglot",
+            "ref": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+            "refIdPath": [
+                "1c4ddaf8-f09f-4e0c-b438-d459773a3c3c",
+                "016dd4ca-c40f-4945-aeba-cfcee24b4958",
+                "4ab258ae-e089-4ac8-8e55-3f9752c47bf2"
+            ],
+            "isActivated": true,
+            "collectionName": "Account",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "7e682fb8-a278-4bdd-83eb-e4135e247d04"
+            },
+            "additionalProperties": false,
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736"
+                    },
+                    {
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c"
+                    },
+                    {
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0"
+                    },
+                    {
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6"
+                    },
+                    {
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48",
+                        "properties": [
+                            {
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "properties": [
+                                    {
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "properties": [
+                                            {
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683"
+                                            },
+                                            {
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "properties": [
+                                    {
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "properties": [
+                                            {
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9"
+                                            },
+                                            {
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "properties": [
+                                    {
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "properties": [
+                                            {
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4"
+                                            },
+                                            {
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3"
+                                            },
+                                            {
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94"
+                                            },
+                                            {
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bucketId": "c285f6fa-2e87-4e32-9161-5441daa4915a"
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "c285f6fa-2e87-4e32-9161-5441daa4915a",
+            "name": "Bank",
+            "type": "reference",
+            "$ref": "#external/definitions/Bank",
+            "refType": "polyglot",
+            "ref": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+            "refIdPath": [
+                "1c4ddaf8-f09f-4e0c-b438-d459773a3c3c",
+                "016dd4ca-c40f-4945-aeba-cfcee24b4958",
+                "83bae81c-c31b-4f7e-b190-23c65a1065b1"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "76ab6db7-1d7a-475b-9648-d5eb492860ca"
+            ]
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "76ab6db7-1d7a-475b-9648-d5eb492860ca": "Account",
+        "c285f6fa-2e87-4e32-9161-5441daa4915a": "Bank"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "02c1b330-0fe7-4bb0-ad2e-9a8917657b74"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "code": "",
+                "collectionName": "Account",
+                "type": "object",
+                "properties": [
+                    {
+                        "code": "",
+                        "type": "string",
+                        "timeUnitpartitionKey": false,
+                        "rangePartitionKey": false,
+                        "clusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "name": "accountNumber",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736",
+                        "compositeKey": [
+                            "timeUnitpartitionKey",
+                            "rangePartitionKey",
+                            "clusteringKey",
+                            "compositePrimaryKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "childType": "date",
+                        "type": "string",
+                        "timeUnitpartitionKey": false,
+                        "rangePartitionKey": false,
+                        "clusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "name": "dateOpened",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c",
+                        "compositeKey": [
+                            "timeUnitpartitionKey",
+                            "rangePartitionKey",
+                            "clusteringKey",
+                            "compositePrimaryKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "childType": "float64",
+                        "type": "numeric",
+                        "timeUnitpartitionKey": false,
+                        "rangePartitionKey": false,
+                        "clusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "name": "balance",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0",
+                        "compositeKey": [
+                            "timeUnitpartitionKey",
+                            "rangePartitionKey",
+                            "clusteringKey",
+                            "compositePrimaryKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "type": "string",
+                        "timeUnitpartitionKey": false,
+                        "rangePartitionKey": false,
+                        "clusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "name": "accountType",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6",
+                        "enum": [
+                            "checking",
+                            "savings",
+                            "loan"
+                        ],
+                        "compositeKey": [
+                            "timeUnitpartitionKey",
+                            "rangePartitionKey",
+                            "clusteringKey",
+                            "compositePrimaryKey"
+                        ]
+                    },
+                    {
+                        "type": "choice",
+                        "properties": [
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "childType": "struct",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "checking",
+                                        "isActivated": true,
+                                        "dataTypeMode": "Nullable",
+                                        "subtype": "struct<str>",
+                                        "keyType": "string",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "bignumeric",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "minimumBalanace",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683",
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "int64",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "overdraftLimit",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b",
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "childType": "struct",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "timeUnitpartitionKey",
+                                            "rangePartitionKey",
+                                            "clusteringKey",
+                                            "compositePrimaryKey"
+                                        ],
+                                        "timeUnitpartitionKey": false,
+                                        "rangePartitionKey": false,
+                                        "clusteringKey": false,
+                                        "compositePrimaryKey": false,
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "childType": "struct",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "savings",
+                                        "isActivated": true,
+                                        "dataTypeMode": "Nullable",
+                                        "subtype": "struct<str>",
+                                        "keyType": "string",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "bignumeric",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9",
+                                                "precision": 2,
+                                                "scale": 5,
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "float64",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "interestEarned",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181",
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "childType": "struct",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "timeUnitpartitionKey",
+                                            "rangePartitionKey",
+                                            "clusteringKey",
+                                            "compositePrimaryKey"
+                                        ],
+                                        "timeUnitpartitionKey": false,
+                                        "rangePartitionKey": false,
+                                        "clusteringKey": false,
+                                        "compositePrimaryKey": false,
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "childType": "struct",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "loan",
+                                        "isActivated": true,
+                                        "dataTypeMode": "Nullable",
+                                        "subtype": "struct<str>",
+                                        "keyType": "string",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "float64",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "loanAmount",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4",
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "int64",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "term",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3",
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "bignumeric",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94",
+                                                "precision": 2,
+                                                "scale": 5,
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "childType": "float64",
+                                                "type": "numeric",
+                                                "timeUnitpartitionKey": false,
+                                                "rangePartitionKey": false,
+                                                "clusteringKey": false,
+                                                "compositePrimaryKey": false,
+                                                "name": "monthlyPmt",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71",
+                                                "compositeKey": [
+                                                    "timeUnitpartitionKey",
+                                                    "rangePartitionKey",
+                                                    "clusteringKey",
+                                                    "compositePrimaryKey"
+                                                ]
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "childType": "struct",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "timeUnitpartitionKey",
+                                            "rangePartitionKey",
+                                            "clusteringKey",
+                                            "compositePrimaryKey"
+                                        ],
+                                        "timeUnitpartitionKey": false,
+                                        "rangePartitionKey": false,
+                                        "clusteringKey": false,
+                                        "compositePrimaryKey": false,
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48"
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "5e11cee1-50db-466b-82eb-3cfb1f7cd82a"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+                "childCollection": [
+                    "72644293-4dab-4785-8c43-bf3c14acb505",
+                    "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                    "bbfeaeaf-9885-46a9-98d7-285380fb272d"
+                ],
+                "relationName": "accountDetails",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "bucketId": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "definitionEntityType": "collection",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "76ab6db7-1d7a-475b-9648-d5eb492860ca"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "fieldRelativePath": "#/Account"
+            },
+            {
+                "name": "Bank",
+                "type": "bucket",
+                "collectionIds": [],
+                "backgroundColor": {
+                    "r": 216,
+                    "g": 0,
+                    "b": 115,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "definitionEntityType": "bucket",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/Bank",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "c285f6fa-2e87-4e32-9161-5441daa4915a"
+                    ]
+                ]
+            }
+        ],
+        "GUID": "016dd4ca-c40f-4945-aeba-cfcee24b4958"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "c6b39c75-fed2-4247-85f8-32858b9118a8"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v2",
+    "dbVendor": "BigQuery",
+    "appTarget": "BigQuery",
+    "creationTS": "2024-06-24T13:12:54.306Z",
+    "GUID": "1c4ddaf8-f09f-4e0c-b438-d459773a3c3c",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "polyglotModelPaths": [
+        {
+            "GUID": "3847a412-e5cb-44c7-aa06-6f6cc3b87422",
+            "polyglotModelName": "Polyglot - Master - Bank account subtypes.hck",
+            "polyglotModelPath": "Polyglot - Master - Bank account subtypes.hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2024-07-16T13:23:53.434Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "BigQuery",
+        "pluginVersion": "0.2.4",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.6.2"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "76ab6db7-1d7a-475b-9648-d5eb492860ca",
+                        "x": 3026.896551724137,
+                        "y": 2926.379310344828,
+                        "width": 460,
+                        "height": 313,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 2986.896551724137,
+                        "y": 2886.379310344828,
+                        "GUID": "c285f6fa-2e87-4e32-9161-5441daa4915a"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "76ab6db7-1d7a-475b-9648-d5eb492860ca"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

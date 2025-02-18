@@ -1,0 +1,635 @@
+{
+    "modelName": "Bank account subtype",
+    "collections": [
+        {
+            "GUID": "f4e6ed53-5496-4ba0-bac7-af4964692bd3",
+            "type": "reference",
+            "$ref": "#external/definitions/Account",
+            "refType": "polyglot",
+            "ref": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+            "refIdPath": [
+                "18d68d72-9f6e-49ff-8c7b-89734a5ead99",
+                "19a94e01-b1bc-4b63-998f-3b77a930fe2e",
+                "4ab258ae-e089-4ac8-8e55-3f9752c47bf2"
+            ],
+            "isActivated": true,
+            "collectionName": "Account",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "51c17585-4c50-470a-9294-7d8f0767dbc9"
+            },
+            "additionalProperties": false,
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736"
+                    },
+                    {
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c"
+                    },
+                    {
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0"
+                    },
+                    {
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6"
+                    },
+                    {
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48",
+                        "properties": [
+                            {
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "properties": [
+                                    {
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "properties": [
+                                            {
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683"
+                                            },
+                                            {
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "properties": [
+                                    {
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "properties": [
+                                            {
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9"
+                                            },
+                                            {
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "properties": [
+                                    {
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "properties": [
+                                            {
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4"
+                                            },
+                                            {
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3"
+                                            },
+                                            {
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94"
+                                            },
+                                            {
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": true
+                }
+            },
+            "bucketId": "a2c8cf98-0da7-4f99-b007-980cacf6cf0d"
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "a2c8cf98-0da7-4f99-b007-980cacf6cf0d",
+            "name": "Bank",
+            "type": "reference",
+            "$ref": "#external/definitions/Bank",
+            "refType": "polyglot",
+            "ref": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+            "refIdPath": [
+                "18d68d72-9f6e-49ff-8c7b-89734a5ead99",
+                "19a94e01-b1bc-4b63-998f-3b77a930fe2e",
+                "83bae81c-c31b-4f7e-b190-23c65a1065b1"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "f4e6ed53-5496-4ba0-bac7-af4964692bd3"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "f4e6ed53-5496-4ba0-bac7-af4964692bd3": "Account",
+        "a2c8cf98-0da7-4f99-b007-980cacf6cf0d": "Bank"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "922d917d-7687-4bfa-ae3d-04e5ee9d03e9"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "code": "",
+                "collectionName": "Account",
+                "type": "object",
+                "properties": [
+                    {
+                        "code": "",
+                        "primaryKey": true,
+                        "mode": "varchar",
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "string",
+                        "compositePartitionKey": true,
+                        "compositeClusteringKey": false,
+                        "name": "accountNumber",
+                        "isActivated": true,
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "primaryKey": false,
+                        "childType": "date",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "name": "dateOpened",
+                        "isActivated": true,
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "float",
+                        "childType": "numeric",
+                        "type": "numeric",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "name": "balance",
+                        "isActivated": true,
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey"
+                        ]
+                    },
+                    {
+                        "code": "",
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "name": "accountType",
+                        "isActivated": true,
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6",
+                        "enum": [
+                            "checking",
+                            "savings",
+                            "loan"
+                        ],
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey"
+                        ]
+                    },
+                    {
+                        "type": "choice",
+                        "properties": [
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "childType": "udt",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "checking",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "decimal",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "minimumBalanace",
+                                                "isActivated": true,
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683",
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "integer",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "overdraftLimit",
+                                                "isActivated": true,
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            }
+                                        ],
+                                        "frozen": true,
+                                        "additionalProperties": false,
+                                        "childType": "udt",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "compositePartitionKey",
+                                            "compositeClusteringKey"
+                                        ],
+                                        "compositePartitionKey": false,
+                                        "compositeClusteringKey": false,
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "childType": "udt",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "savings",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "decimal",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "interestEarned",
+                                                "isActivated": true,
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            }
+                                        ],
+                                        "frozen": true,
+                                        "additionalProperties": false,
+                                        "childType": "udt",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "compositePartitionKey",
+                                            "compositeClusteringKey"
+                                        ],
+                                        "compositePartitionKey": false,
+                                        "compositeClusteringKey": false,
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "childType": "udt",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "loan",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "loanAmount",
+                                                "isActivated": true,
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "integer",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "term",
+                                                "isActivated": true,
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "decimal",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            },
+                                            {
+                                                "code": "",
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "float",
+                                                "childType": "numeric",
+                                                "type": "numeric",
+                                                "compositePartitionKey": false,
+                                                "compositeClusteringKey": false,
+                                                "name": "monthlyPmt",
+                                                "isActivated": true,
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71",
+                                                "compositeKey": [
+                                                    "compositePartitionKey",
+                                                    "compositeClusteringKey"
+                                                ]
+                                            }
+                                        ],
+                                        "frozen": true,
+                                        "additionalProperties": false,
+                                        "childType": "udt",
+                                        "type": "document",
+                                        "compositeKey": [
+                                            "compositePartitionKey",
+                                            "compositeClusteringKey"
+                                        ],
+                                        "compositePartitionKey": false,
+                                        "compositeClusteringKey": false,
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "description": "",
+                                        "comments": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48"
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "5e11cee1-50db-466b-82eb-3cfb1f7cd82a"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+                "childCollection": [
+                    "72644293-4dab-4785-8c43-bf3c14acb505",
+                    "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                    "bbfeaeaf-9885-46a9-98d7-285380fb272d"
+                ],
+                "relationName": "accountDetails",
+                "bucketId": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "compositePartitionKey": [
+                    {
+                        "keyId": "26ebd3d2-73ca-4761-a968-50d4d32c4736",
+                        "type": ""
+                    }
+                ],
+                "definitionEntityType": "collection",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "f4e6ed53-5496-4ba0-bac7-af4964692bd3"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "fieldRelativePath": "#/Account"
+            },
+            {
+                "name": "Bank",
+                "type": "bucket",
+                "collectionIds": [],
+                "backgroundColor": {
+                    "r": 216,
+                    "g": 0,
+                    "b": 115,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "definitionEntityType": "bucket",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/Bank",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "a2c8cf98-0da7-4f99-b007-980cacf6cf0d"
+                    ]
+                ]
+            }
+        ],
+        "GUID": "19a94e01-b1bc-4b63-998f-3b77a930fe2e"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d583d54f-b6bc-4b1e-8a78-6aac865bae3d"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Cassandra",
+    "appTarget": "CASSANDRA",
+    "creationTS": "2024-06-24T13:16:51.221Z",
+    "GUID": "18d68d72-9f6e-49ff-8c7b-89734a5ead99",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "polyglotModelPaths": [
+        {
+            "GUID": "236730aa-6913-43c4-b3b5-ad309a4bb42b",
+            "polyglotModelName": "Polyglot - Master - Bank account subtypes.hck",
+            "polyglotModelPath": "Polyglot - Master - Bank account subtypes.hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2024-07-16T13:24:08.766Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Cassandra",
+        "pluginVersion": "0.2.3",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.6.2"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "f4e6ed53-5496-4ba0-bac7-af4964692bd3",
+                        "x": 2084.679802955665,
+                        "y": 2003.288669950739,
+                        "width": 449,
+                        "height": 193,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 2044.6798029556649,
+                        "y": 1963.288669950739,
+                        "GUID": "a2c8cf98-0da7-4f99-b007-980cacf6cf0d"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "f4e6ed53-5496-4ba0-bac7-af4964692bd3"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

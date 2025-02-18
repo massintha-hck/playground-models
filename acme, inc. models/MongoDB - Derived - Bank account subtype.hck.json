@@ -1,0 +1,587 @@
+{
+    "modelName": "Bank account subtype",
+    "collections": [
+        {
+            "GUID": "5c959131-7cf9-458f-b1fd-7885113996fb",
+            "type": "reference",
+            "$ref": "#external/definitions/Account",
+            "refType": "polyglot",
+            "ref": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+            "refIdPath": [
+                "dad9771f-7958-481f-8811-dc7b7a56e7a8",
+                "f9715239-3157-42c0-9018-7cc0131245e8",
+                "4ab258ae-e089-4ac8-8e55-3f9752c47bf2"
+            ],
+            "isActivated": true,
+            "collectionName": "Account",
+            "bucketId": "a300b39f-fb51-435c-8174-b8d90809c167",
+            "properties": [],
+            "definitions": {
+                "GUID": "3238e2a0-dc48-497e-bb61-c4deaa8b566a",
+                "properties": []
+            },
+            "additionalProperties": false,
+            "refPath": "#external/definitions/Account",
+            "timeseriesOptions": [],
+            "storageEngineName": "WiredTiger",
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "collation": {
+                "locale": "af",
+                "strength": "1-Primary",
+                "caseLevel": false,
+                "caseFirst": "off",
+                "numericOrdering": false,
+                "alternate": "non-ignorable",
+                "maxVariable": "Null",
+                "backwards": false,
+                "normalization": false
+            },
+            "dropdownProp": "Option 1",
+            "multiDropdownProp": [],
+            "grpProp": [],
+            "keyList": [],
+            "keyListOrder": [],
+            "referenceDiff": {
+                "definitions": {
+                    "GUID": "5e11cee1-50db-466b-82eb-3cfb1f7cd82a",
+                    "properties": []
+                },
+                "properties": [
+                    {
+                        "dropdownProp": "Option 1",
+                        "color": "#555555",
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736"
+                    },
+                    {
+                        "color": "#555555",
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c"
+                    },
+                    {
+                        "color": "#555555",
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0"
+                    },
+                    {
+                        "dropdownProp": "Option 1",
+                        "color": "#555555",
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6"
+                    },
+                    {
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48",
+                        "properties": [
+                            {
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "properties": [
+                                    {
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "properties": [
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683"
+                                            },
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "properties": [
+                                    {
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "properties": [
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9"
+                                            },
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "properties": [
+                                    {
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "properties": [
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4"
+                                            },
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3"
+                                            },
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94"
+                                            },
+                                            {
+                                                "color": "#555555",
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "error": {
+                "refPath": false
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "a300b39f-fb51-435c-8174-b8d90809c167",
+            "name": "Bank",
+            "type": "reference",
+            "$ref": "#external/definitions/Bank",
+            "refType": "polyglot",
+            "ref": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+            "refIdPath": [
+                "dad9771f-7958-481f-8811-dc7b7a56e7a8",
+                "f9715239-3157-42c0-9018-7cc0131245e8",
+                "83bae81c-c31b-4f7e-b190-23c65a1065b1"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "5c959131-7cf9-458f-b1fd-7885113996fb"
+            ]
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "5c959131-7cf9-458f-b1fd-7885113996fb": "Account",
+        "a300b39f-fb51-435c-8174-b8d90809c167": "Bank"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "00e81b31-1dd5-4e0b-800e-1eda87ebc7a1"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "code": "",
+                "collectionName": "Account",
+                "type": "object",
+                "properties": [
+                    {
+                        "code": "",
+                        "type": "string",
+                        "name": "accountNumber",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "GUID": "26ebd3d2-73ca-4761-a968-50d4d32c4736",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "date",
+                        "primaryKey": false,
+                        "name": "dateOpened",
+                        "isActivated": true,
+                        "GUID": "52aa3132-8021-4339-9b96-e0843eeb557c",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "numeric",
+                        "name": "balance",
+                        "isActivated": true,
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "GUID": "ed26ce02-bfae-40b3-b712-bce27ab492f0",
+                        "mode": "double",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "string",
+                        "name": "accountType",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "238ac162-254f-458c-9c1a-bea5780175d6",
+                        "enum": [
+                            "checking",
+                            "savings",
+                            "loan"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "type": "choice",
+                        "properties": [
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "b7fc0dbd-1293-55eb-a099-871ff9c6e485",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "checking",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "minimumBalanace",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "13ebe58d-2794-4ec2-a05a-53a844ac2683",
+                                                "mode": "decimal128",
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "overdraftLimit",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "integer32",
+                                                "GUID": "26556ca3-1bc6-46b8-86c1-1167a22caa2b",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "72644293-4dab-4785-8c43-bf3c14acb505",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "7b04746e-5cf6-5d7c-90e9-3b90357118dc",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "savings",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "c3d7fb19-9ede-469f-b2f3-828cb33324e9",
+                                                "mode": "decimal128",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "interestEarned",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "0973c35b-7385-45f7-ad1e-9d81226e4181",
+                                                "mode": "double",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "23861cff-fedf-5b7b-b52a-ef1dd90d6d45",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "loan",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "loanAmount",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "6fb127f5-f022-40b6-9c40-8b2cdf4e1ec4",
+                                                "mode": "double",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "term",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "mode": "integer32",
+                                                "GUID": "22dad95f-d359-4dc4-9dd7-8bf6d75b0ad3",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "e4d35c62-7243-4d0c-9c8c-94c9f8878a94",
+                                                "mode": "decimal128",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "name": "monthlyPmt",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "874a6ffd-6253-412c-8ff3-e378468d3e71",
+                                                "mode": "double",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "bbfeaeaf-9885-46a9-98d7-285380fb272d",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "385bf49d-d346-5a05-b016-ba7a9b89fa48",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "5e11cee1-50db-466b-82eb-3cfb1f7cd82a"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "4ab258ae-e089-4ac8-8e55-3f9752c47bf2",
+                "childCollection": [
+                    "72644293-4dab-4785-8c43-bf3c14acb505",
+                    "8e5027f8-3d1a-4e2e-8eb2-4bd0cfdbec95",
+                    "bbfeaeaf-9885-46a9-98d7-285380fb272d"
+                ],
+                "relationName": "accountDetails",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "bucketId": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "definitionEntityType": "collection",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "5c959131-7cf9-458f-b1fd-7885113996fb"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "fieldRelativePath": "#/Bank/Account"
+            },
+            {
+                "code": "",
+                "name": "Bank",
+                "type": "bucket",
+                "collectionIds": [
+                    "4ab258ae-e089-4ac8-8e55-3f9752c47bf2"
+                ],
+                "backgroundColor": {
+                    "r": 216,
+                    "g": 0,
+                    "b": 115,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "83bae81c-c31b-4f7e-b190-23c65a1065b1",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "bucket",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "a300b39f-fb51-435c-8174-b8d90809c167"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "Polyglot - Master - Bank account subtypes.hck.json",
+                "fieldRelativePath": "#/Bank"
+            }
+        ],
+        "GUID": "f9715239-3157-42c0-9018-7cc0131245e8"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "00b1ca14-ae60-490f-9eeb-8dedd44eead2"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v7.x",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2024-06-25T05:36:43.816Z",
+    "GUID": "dad9771f-7958-481f-8811-dc7b7a56e7a8",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        },
+        "customPropertiesUpdated": true
+    },
+    "polyglotModelPaths": [
+        {
+            "GUID": "929bf359-8d08-4811-a063-413fb06c78a6",
+            "polyglotModelName": "Polyglot - Master - Bank account subtypes.hck",
+            "polyglotModelPath": "Polyglot - Master - Bank account subtypes.hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2024-06-26T13:53:54.101Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.1"
+    },
+    "dropdownProp": "Option 1",
+    "multiDropdownProp": [],
+    "grpProp": [],
+    "keyList": [],
+    "keyListOrder": [],
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "5c959131-7cf9-458f-b1fd-7885113996fb",
+                        "x": 1312,
+                        "y": 1050,
+                        "width": 389,
+                        "height": 471,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1272,
+                        "y": 1010,
+                        "GUID": "a300b39f-fb51-435c-8174-b8d90809c167"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "5c959131-7cf9-458f-b1fd-7885113996fb",
+                        "fontStyle": [
+                            "bold"
+                        ]
+                    }
+                ],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideForeignMaster": true,
+                    "hideModelViews": true,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
