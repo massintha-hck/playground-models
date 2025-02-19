@@ -7,4 +7,6 @@ Feel free to explore at your leisure.  It even allows you to load your own model
 
 An online user documentation can be found [here](https://hackolade.com/help/Hubuserinterface.html). 
 
-**WARNING:** the Hackolade Model Hub is totally open to anyone, so we strongly suggest to refrain from loading any confidential models.  We reserve the right to remove any inappropriate content from the repository.
+**WARNING:** the Hackolade Model Hub is totally open to anyone, so we strongly suggest to refrain from loading any confidential models.  
+
+Hackolade reserves the right to remove any inappropriate content from this repository, or any content that would negatively affect the platform.
